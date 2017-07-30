@@ -2928,6 +2928,9 @@ AFRAME.registerComponent('arjsmarker', {
 		}else if( this.data.preset === 'arjsmarker' ){
 			this.data.type = 'pattern'
 			this.data.patternUrl = '../../data/data/arjsmarker.patt'
+		}else if( this.data.preset === 'molinon' ){
+			this.data.type = 'pattern'
+			this.data.patternUrl = '../../data/data/molinon.patt'
 		}else {
 			console.assert( this.data.preset === '', 'illegal preset value '+this.data.preset)
 		}
